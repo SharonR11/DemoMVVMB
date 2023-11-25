@@ -19,13 +19,13 @@
 
 
             <Button FontSize="Title" Command="{Binding CalcularNetoFinal}"
-                    BackgroundColor="Aqua" Text="Calcular Descuento"></Button>
+                    BackgroundColor="Coral" Text="Calcular Descuento"></Button>
             
             <Label FontSize="Title" 
                    Text="{Binding Respuesta}"></Label>
 
             <Button FontSize="Title" Command="{Binding CalcularImpuesto}"
-                    BackgroundColor="Brown" Text="Calcular Impuesto"></Button>
+                    BackgroundColor="DarkKhaki" Text="Calcular Impuesto"></Button>
             <Label FontSize="Title" 
                    Text="{Binding Impuesto}"></Label>
 
